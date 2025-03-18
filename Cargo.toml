@@ -1,0 +1,23 @@
+[package]
+name = "aspix"
+version = "0.1.0"
+edition = "2021"
+authors = ["Chandra K.A baundatar@gmail.com"]
+description = "Library Rust yang powerful untuk mengkonversi gambar menjadi ASCII art"
+repository = "https://github.com/FANNYMU/aspix"
+documentation = "https://docs.rs/aspix"
+homepage = "https://github.com/FANNYMU/aspix"
+license = "MIT"
+readme = "README.md"
+keywords = ["ascii", "art", "image", "converter", "graphics"]
+categories = ["multimedia::images", "command-line-utilities"]
+
+[lib]
+name = "aspix"
+path = "src/lib.rs"
+
+[dependencies]
+image = "0.24"
+
+[dev-dependencies]
+criterion = "0.5"
